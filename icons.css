@@ -9,6 +9,7 @@
 .fal,
 .fad,
 .fab,
+.linkedin,
 .insta,
 .twitter {
   -moz-osx-font-smoothing: grayscale;
@@ -20,7 +21,7 @@
   line-height: 1;
 }
 
-.insta, .twitter {
+.linkedin, .insta, .twitter {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -125,6 +126,7 @@
 .far.fa-pull-left,
 .fal.fa-pull-left,
 .fab.fa-pull-left,
+.fa-pull-left.linkedin,
 .fa-pull-left.insta,
 .fa-pull-left.twitter {
   margin-right: 0.3em;
@@ -134,6 +136,7 @@
 .far.fa-pull-right,
 .fal.fa-pull-right,
 .fab.fa-pull-right,
+.fa-pull-right.linkedin,
 .fa-pull-right.insta,
 .fa-pull-right.twitter {
   margin-left: 0.3em;
@@ -6093,7 +6096,7 @@ readers do not read off random characters that represent icons */
   src: url("./fontawesome/webfonts/fa-brands-400.eot");
   src: url("./fontawesome/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("./fontawesome/webfonts/fa-brands-400.woff2") format("woff2"), url("./fontawesome/webfonts/fa-brands-400.woff") format("woff"), url("./fontawesome/webfonts/fa-brands-400.ttf") format("truetype"), url("./fontawesome/webfonts/fa-brands-400.svg#fontawesome") format("svg");
 }
-.fab, .insta, .twitter {
+.fab, .linkedin, .insta, .twitter {
   font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
@@ -6104,6 +6107,10 @@ readers do not read off random characters that represent icons */
 
 .insta:before {
   content: "";
+}
+
+.linkedin:before {
+  content: "";
 }
 
 /*# sourceMappingURL=icons.css.map */
