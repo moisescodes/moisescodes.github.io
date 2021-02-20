@@ -5,12 +5,12 @@ $teal: #23d9b7;
 $yellow: #d7f205;
 
 html {
+  background-color: #333;
+  background-image: linear-gradient(to top right, $purple, $teal);
   min-height: 100%;
 }
 
 body {
-  background-color: #333;
-  background-image: linear-gradient(to top right, $purple, $teal);
   height: 100%;
   width: 100%;
   margin: 0;
@@ -19,16 +19,29 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header,
-main {
+header {
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
   width: 80%;
   border-radius: 0.5em;
   padding: 1em;
   margin: 0.5em auto;
-  box-shadow: -3px 3px 15px -5px #444;
+
+  h2 {
+    margin-top: 0;
+  }
 }
 
 .background-light {
   background: rgba(255, 255, 255, 0.6);
   color: $blue;
+  box-shadow: -3px 3px 15px -5px #444;
 }
