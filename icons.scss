@@ -1,0 +1,13 @@
+$fa-font-path: "./fontawesome/webfonts";
+
+@import "./fontawesome/scss/fontawesome.scss";
+@import "./fontawesome/scss/brands.scss";
+
+.twitter {
+  @extend %fa-icon;
+  @extend .fab;
+
+  &:before {
+    content: fa-content($fa-var-twitter);
+  }
+}
