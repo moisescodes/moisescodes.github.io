@@ -11,3 +11,12 @@ $fa-font-path: "./fontawesome/webfonts";
     content: fa-content($fa-var-twitter);
   }
 }
+
+.insta {
+  @extend %fa-icon;
+  @extend .fab;
+
+  &:before {
+    content: fa-content($fa-var-instagram);
+  }
+}
