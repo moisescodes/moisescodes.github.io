@@ -1,5 +1,21 @@
+/* Color Theme Swatches in Hex */
+$pink: #ab05f2;
+$purple: #7d07f2;
+$blue: #5207f2;
+$teal: #23d9b7;
+$yellow: #d7f205;
+
+html {
+  min-height: 100%;
+}
+
 body {
   background-color: #333;
+  background-image: linear-gradient(to top right, $purple, $teal);
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
 }
