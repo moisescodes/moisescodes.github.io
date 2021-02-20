@@ -17,13 +17,13 @@ header,
 main {
   width: 80%;
   border-radius: 0.5em;
-  border: 0.5em solid #d7f205;
   padding: 1em;
   margin: 0.5em auto;
+  box-shadow: -3px 3px 15px -5px #444;
 }
 
 .background-light {
-  background-color: #fff;
+  background: rgba(255, 255, 255, 0.6);
   color: #5207f2;
 }
 
