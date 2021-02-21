@@ -30,3 +30,21 @@ $fa-font-path: "./fontawesome/webfonts";
     content: fa-content($fa-var-linkedin);
   }
 }
+
+.light {
+  @extend %fa-icon;
+  @extend .fas;
+
+  &:before {
+    content: fa-content($fa-var-sun);
+  }
+}
+
+.dark {
+  @extend %fa-icon;
+  @extend .fas;
+
+  &:before {
+    content: fa-content($fa-var-moon);
+  }
+}

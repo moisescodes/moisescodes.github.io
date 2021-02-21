@@ -1,6 +1,6 @@
 html {
   background-color: #5207f2;
-  height: 100%;
+  min-height: 100%;
 }
 
 body {
@@ -16,6 +16,13 @@ header {
   width: 100%;
   padding: 1em;
   text-align: center;
+}
+
+header button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
 }
 
 h1 {
@@ -57,6 +64,34 @@ section h2 {
 .background-light section {
   background: rgba(255, 255, 255, 0.6);
   color: #5207f2;
+  -webkit-box-shadow: -3px 3px 15px -5px #444;
+          box-shadow: -3px 3px 15px -5px #444;
+}
+
+.background-dark {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#5207f2), to(#23d9b7));
+  background-image: linear-gradient(to top right, #5207f2, #23d9b7);
+}
+
+.background-dark header {
+  background: rgba(124, 7, 242, 0.2);
+  -webkit-box-shadow: -3px 3px 15px -5px #444;
+          box-shadow: -3px 3px 15px -5px #444;
+}
+
+.background-dark header a,
+.background-dark header a:hover,
+.background-dark header a:visited {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.1em;
+  border-radius: 0.1em;
+  margin: 0.5em;
+}
+
+.background-dark section {
+  background: rgba(100, 100, 100, 0.6);
+  color: #fff;
   -webkit-box-shadow: -3px 3px 15px -5px #444;
           box-shadow: -3px 3px 15px -5px #444;
 }

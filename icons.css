@@ -4,6 +4,8 @@
  */
 .fa,
 .fas,
+.light,
+.dark,
 .far,
 .fal,
 .fad,
@@ -20,7 +22,7 @@
   line-height: 1;
 }
 
-.twitter, .insta, .linkedin {
+.twitter, .insta, .linkedin, .light, .dark {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -123,6 +125,8 @@
 
 .fa.fa-pull-left,
 .fas.fa-pull-left,
+.fa-pull-left.light,
+.fa-pull-left.dark,
 .far.fa-pull-left,
 .fal.fa-pull-left,
 .fab.fa-pull-left,
@@ -134,6 +138,8 @@
 
 .fa.fa-pull-right,
 .fas.fa-pull-right,
+.fa-pull-right.light,
+.fa-pull-right.dark,
 .far.fa-pull-right,
 .fal.fa-pull-right,
 .fab.fa-pull-right,
@@ -6122,7 +6128,9 @@ readers do not read off random characters that represent icons */
 }
 
 .fa,
-.fas {
+.fas,
+.light,
+.dark {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
 }
@@ -6159,5 +6167,13 @@ readers do not read off random characters that represent icons */
 
 .linkedin:before {
   content: "\f08c";
+}
+
+.light:before {
+  content: "\f185";
+}
+
+.dark:before {
+  content: "\f186";
 }
 /*# sourceMappingURL=icons.css.map */
