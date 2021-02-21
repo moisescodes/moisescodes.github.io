@@ -3,6 +3,7 @@ $purple: #7d07f2;
 $blue: #5207f2;
 $teal: #23d9b7;
 $yellow: #d7f205;
+$actually-blue: #4b7bd1;
 
 $pink-rgba: rgba(171, 4, 242, 1);
 $purple-rgba: rgba(124, 7, 242, 1);
@@ -28,6 +29,18 @@ header {
   width: 100%;
   padding: 1em;
   text-align: center;
+  background: rgba(124, 7, 242, 0.3);
+  box-shadow: -3px 3px 15px -5px #444;
+
+  a,
+  a:hover,
+  a:visited {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.1em;
+    border-radius: 0.1em;
+    margin: 0.5em;
+  }
 
   button {
     background: transparent;
@@ -35,6 +48,15 @@ header {
     color: #fff;
     cursor: pointer;
   }
+}
+
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -49,51 +71,26 @@ section {
 
   h2 {
     margin-top: 0;
+    border-bottom: 1px solid #888;
   }
 }
 
 .background-light {
   background-image: linear-gradient(to top right, $purple, $teal);
 
-  header {
-    background: rgba(124, 7, 242, 0.2);
-    box-shadow: -3px 3px 15px -5px #444;
-
-    a,
-    a:hover,
-    a:visited {
-      text-decoration: none;
-      color: #fff;
-      padding: 0.1em;
-      border-radius: 0.1em;
-      margin: 0.5em;
-    }
-  }
-
   section {
     background: rgba(255, 255, 255, 0.6);
     color: $blue;
     box-shadow: -3px 3px 15px -5px #444;
+
+    p {
+      color: #333;
+    }
   }
 }
 
 .background-dark {
   background-image: linear-gradient(to top right, $blue, $teal);
-
-  header {
-    background: rgba(124, 7, 242, 0.2);
-    box-shadow: -3px 3px 15px -5px #444;
-
-    a,
-    a:hover,
-    a:visited {
-      text-decoration: none;
-      color: #fff;
-      padding: 0.1em;
-      border-radius: 0.1em;
-      margin: 0.5em;
-    }
-  }
 
   section {
     background: rgba(100, 100, 100, 0.6);
