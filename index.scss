@@ -4,10 +4,15 @@ $blue: #5207f2;
 $teal: #23d9b7;
 $yellow: #d7f205;
 
+$pink-rgba: rgba(171, 4, 242, 1);
+$purple-rgba: rgba(124, 7, 242, 1);
+$blue-rgba: rgba(81, 7, 242, 1);
+$teal-rgba: rgba(34, 216, 183, 1);
+$yellow-rgba: rgba(214, 242, 4, 1);
+
 html {
-  background-color: #333;
-  background-image: linear-gradient(to top right, $purple, $teal);
-  min-height: 100%;
+  background-color: $blue;
+  height: 100%;
 }
 
 body {
@@ -41,7 +46,26 @@ section {
 }
 
 .background-light {
-  background: rgba(255, 255, 255, 0.6);
-  color: $blue;
-  box-shadow: -3px 3px 15px -5px #444;
+  background-image: linear-gradient(to top right, $purple, $teal);
+
+  header {
+    background: rgba(124, 7, 242, 0.2);
+    box-shadow: -3px 3px 15px -5px #444;
+
+    a,
+    a:hover,
+    a:visited {
+      text-decoration: none;
+      color: #fff;
+      padding: 0.1em;
+      border-radius: 0.1em;
+      margin: 0.5em;
+    }
+  }
+
+  section {
+    background: rgba(255, 255, 255, 0.6);
+    color: $blue;
+    box-shadow: -3px 3px 15px -5px #444;
+  }
 }
