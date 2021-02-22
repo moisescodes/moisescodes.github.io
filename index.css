@@ -43,6 +43,16 @@ h2 {
   font-family: "Montserrat", sans-serif;
 }
 
+h2 {
+  text-align: right;
+}
+
+@media (max-width: 400px) {
+  h2 {
+    text-align: left;
+  }
+}
+
 p {
   font-family: "Roboto", sans-serif;
 }
