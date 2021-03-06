@@ -38,6 +38,22 @@ header button {
   cursor: pointer;
 }
 
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
 h1,
 h2 {
   font-family: "Montserrat", sans-serif;
@@ -47,7 +63,7 @@ h2 {
   text-align: right;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   h2 {
     text-align: left;
   }
@@ -78,14 +94,15 @@ section h2 {
   background-image: linear-gradient(to top right, #7d07f2, #23d9b7);
 }
 
-.background-light section {
+.background-light nav ul {
   background: rgba(255, 255, 255, 0.6);
   color: #5207f2;
   -webkit-box-shadow: -3px 3px 15px -5px #444;
           box-shadow: -3px 3px 15px -5px #444;
 }
 
-.background-light section p {
+.background-light section {
+  background-color: #fff;
   color: #333;
 }
 
@@ -94,10 +111,15 @@ section h2 {
   background-image: linear-gradient(to top right, #5207f2, #23d9b7);
 }
 
-.background-dark section {
+.background-dark nav ul {
   background: rgba(100, 100, 100, 0.6);
   color: #fff;
   -webkit-box-shadow: -3px 3px 15px -5px #444;
           box-shadow: -3px 3px 15px -5px #444;
+}
+
+.background-dark section {
+  background-color: #333;
+  color: #fff;
 }
 /*# sourceMappingURL=index.css.map */
