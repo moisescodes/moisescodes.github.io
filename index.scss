@@ -29,7 +29,7 @@ header {
   width: 100%;
   padding: 1em;
   text-align: center;
-  background: rgba(124, 7, 242, 0.3);
+  background: rgba(3, 127, 140, 0.3);
   box-shadow: -3px 3px 15px -5px #444;
 
   a,
@@ -98,7 +98,7 @@ section {
 }
 
 .background-light {
-  background-image: linear-gradient(to top right, $purple, $teal);
+  background-image: linear-gradient(to top, #0388A6 10%, 35%, #00314A 90% );
 
   nav ul {
     background: rgba(255, 255, 255, 0.6);
